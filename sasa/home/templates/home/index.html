@@ -1,0 +1,200 @@
+{% load static %}
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Sasa Handicrafts</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'home/style.css' %}">
+</head>
+<body>
+
+	<!-- Header Section -->
+	<header>
+		<div id="header">
+			<div id="logo">
+				<img src="{% static 'home/images/logo.svg' %}" class="logo-main">
+				<span>Sasa Handicrafts</span>
+			</div>
+			<div class="phone">
+				<img src="{% static 'home/images/phone.svg' %}" class="logo-phone">
+				<span>+91 9724648095</span>
+			</div>
+			<div class="mail">
+				<img src="{% static 'home/images/mail.svg' %}" class="logo-mail">
+				<a href="mailto:biz@sasahandicraft.com">biz@sasahandicraft.com</a>
+			</div>
+		</div>
+	</header>
+
+
+	<!-- Navbar Section -->
+	<nav>
+		<img src="{% static 'home/images/logo_nav.svg' %}" class="nav-logo">
+		<a href="#" class="nav-items">Home</a>
+		<a href="#" class="nav-items">About Us</a>
+		<a href="Gallery.html" class="nav-items">Gallery</a>
+		<a href="#" class="nav-items">Contact Us</a>
+	</nav>
+
+
+	<!--  Main Content Section -->
+	<section>
+
+		<!-- Slider Section -->
+		<div class="slide">
+			<img src=".{% static 'home/images/pro1.jpg' %}">
+		</div>
+
+		<!-- Explore Us Section -->
+		<div class="section">
+			<div align="center" class="explore-head"><h2>Explore Us</h2><div class="underline"></div></div>
+			<div class="explore-types">
+				<a href="Gallery.html#sofa">
+					<div class="explore-product">
+						<center><img src="{% static 'home/images/sofa.svg' %}" class="explore-product-img"></center></center>
+						<p class="explore-product-title" align="center">Sofas</p>
+					</div>
+				</a>
+				<a href="Gallery.html#bedroom">
+					<div class="explore-product">
+						<center><img src="{% static 'home/images/bed.svg' %}" class="explore-product-img"></center>
+						<p class="explore-product-title" align="center">Bedroom Set</p>
+					</div>
+				</a>
+				<a href="Gallery.html#dining">
+					<div class="explore-product">
+						<center><img src="{% static 'home/images/table.svg' %}" class="explore-product-img"></center>
+						<p class="explore-product-title" align="center">Dining Tables</p>
+					</div>
+				</a>
+				<a href="Gallery.html#study">
+					<div class="explore-product">
+						<center><img src="{% static 'home/images/study-desk.svg' %}" class="explore-product-img"></center>
+						<p class="explore-product-title" align="center">Study Desk</p>
+					</div>
+				</a>
+				<a href="Gallery.html#coffee">
+					<div class="explore-product">
+						<center><img src="{% static 'home/images/coffee-table.svg' %}" class="explore-product-img"></center>
+						<p class="explore-product-title" align="center">Coffee Tables</p>
+					</div>
+				</a>
+				<a href="Gallery.html#swing">
+					<div class="explore-product">
+						<center><img src="{% static 'home/images/Swing.svg' %}" class="explore-product-img"></center>
+						<p class="explore-product-title" align="center">Swings</p>
+					</div>
+				</a>
+				<a href="Gallery.html#shoe">
+					<div class="explore-product">
+						<center><img src="{% static 'home/images/shoe-cabinet.svg' %}" class="explore-product-img"></center>
+						<p class="explore-product-title" align="center">Shoe Cabinet</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<hr>
+
+		<!-- Products Section -->	
+		<div class="products">
+			<div align="center" class="products-head"><h2>What We Offer</h2><div class="underline"></div></div>
+			<div class="products-section">
+				<div class="product">
+					<div class="product-img"><img src="{% static 'home/images/bed.png' %}"></div>
+					<div class="product-info" align="center"><h4>Beds</h4><p>1000 Products</p></div>
+				</div>
+				<div class="product">
+					<div class="product-img"><img src="{% static 'home/images/img2.jpg' %}"></div>
+					<div class="product-info" align="center"><h4>Dining Set</h4><p>500 Products</p></div>
+				</div>
+				<div class="product">
+					<div class="product-img"><img src="{% static 'home/images/img3.jpg' %}"></div>
+					<div class="product-info" align="center"><h4>Study Table</h4><p>1500 Products</p></div>
+				</div>
+				<!--<div class="product">
+					<div class="product-img"><img src="../Image/img7.jpg"></div>
+					<div class="product-info" align="center"><h4>Shoe Rack</h4><p>2000 Products</p></div>
+				</div>-->	
+			</div>
+		</div>
+		<hr>
+
+		<!-- Projects Section -->
+		<div class="projects-section">
+			<div align="center" class="projects-head"><h2>Our Projects</h2><div class="underline"></div></div>
+			<div class="projects">
+				<div class="project">
+					<img src="{% static 'home/images/pro2.jpg' %}">
+				</div>
+				<div class="project">
+					<img src="{% static 'home/images/pro1.jpg' %}">
+				</div>
+				<div class="project">
+					<img src="{% static 'home/images/pro3.jpg' %}">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Footer Section -->
+	<footer>
+
+		<!-- Footer Logo Section -->
+		<div id="footer-logo">
+			<img src="{% static 'home/images/logo_nav.svg' %}" class="foot-logo">
+			<span>Sasa Handicrafts</span>
+		</div>
+
+		<!-- Links Section -->
+		<div class="footer-links">
+			<div class="main-col">
+				<ul>
+					<li><a href="Sasa-Handicraft.html">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="Gallery.html">Gallery</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="vr"></div>
+			<div class="side-col">
+				<ul>
+					<li><a href="Gallery.html#sofa">Sofas</a></li>
+					<li><a href="Gallery.html#bedroom">Beds</a></li></a>
+					<li><a href="Gallery.html#dining">Dining Table</a></li>
+					<li><a href="Gallery.html#coffee">Coffee Table</a></li>
+				</ul>
+			</div>
+			<div class="side-col">
+				<ul>
+					<li><a href="Gallery.html#sofa">Convertible Sofas</a></li>
+					<li><a href="Gallery.html#bedroom">Bedroom Set</a></li>
+					<li><a href="Gallery.html#dining">Dining Table Set</a></li>
+					<li><a href="Gallery.html#coffee">Coffee Table Set</a></li>
+				</ul>
+			</div>
+			<div class="side-col">
+				<ul>
+					<li><a href="Gallery.html#study" class="foot-link">Study Table</a></li>
+					<li><a href="Gallery.html#shoe" class="foot-link">Shoe Racks</a></li>
+					<li><a href="Gallery.html#swing" class="foot-link">Swings</a></li>
+				</ul>
+			</div>
+
+			<!-- Social & copyright Section -->
+			<div class="social-and-copy">
+				<div class="social-section">
+					<div class="social-head">
+						<p>Contact Us :</p>
+					</div>
+					<a href="#"><img src="{% static 'home/images/Instagram.svg' %}" class="social"></a>
+					<a href="#"><img src="{% static 'home/images/Whatsapp.svg' %}" class="social"></a>
+					<a href="#"><img src="{% static 'home/images/Facebook.svg' %}" class="social"></a>
+				</div>
+				<div class="copyright">
+					<p>Copyright <span>&copy;</span> 2018</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
